@@ -1,10 +1,11 @@
-# Bootstrap Ruby Gem [![CI](https://github.com/twbs/bootstrap-rubygem/actions/workflows/ci.yml/badge.svg)](https://github.com/twbs/bootstrap-rubygem/actions/workflows/ci.yml) [![Gem](https://img.shields.io/gem/v/bootstrap.svg)](https://rubygems.org/gems/bootstrap)
+# Front End Integration :sparkles:
 
-[Bootstrap 5][bootstrap-home] ruby gem for Ruby on Rails (_Sprockets_/_Importmaps_) and Hanami (formerly Lotus).
+![Static Badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 ## Installation
 
 1- Fork this repo into your own repos
+
 2- Clone your new repo into your PC
 
 ```shell
