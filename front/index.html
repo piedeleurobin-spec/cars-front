@@ -43,11 +43,11 @@
 				min-width: 355px;
 			}
 			.card img {
-				min-width: 535px;
+				min-width: 410px;
 				transition: all 250ms ease-in-out;
 			}
 			.card img:hover {
-				min-width: 555px;
+				min-width: 480px;
 			}
 			.card a:first-child {
 				overflow: hidden;
@@ -104,21 +104,30 @@
 				<section
 					class="card-cont d-flex flex-wrap justify-content-center gap-3"
 				>
+					<!---
+				brand: "Ferrari",
+		model: "250 GTO",
+		year: 1962,
+		color: "Rouge",
+		price: 45000000,
+		mileage: 12000,
+		description: "Voiture de collection exceptionnelle",
+		imageUrl:
+			"https://cdn.ferrari.com/cms/network/media/img/resize/5d055246107b060e8f527a59",
+			
+			-->
 					<!-- doit être généré dynamiquement avec javascript  -->
 					<article class="card shadow-sm">
 						<a href="car.html?id=1">
 							<img
-								src="./imgs/cars/mercedes-01.jpg"
-								class="card-img-top"
+								src="https://cdn.ferrari.com/cms/network/media/img/resize/5d055246107b060e8f527a59"
+								class="card-img-top object-fit-fill"
 								alt="..."
 							/>
 						</a>
 						<div class="card-body">
-							<h5 class="card-title">1972 DE TOMASO PANTERA</h5>
-							<p class="card-text">
-								An iconic merger of beautiful Italian styling, and legendary
-								Ford V8 performance"
-							</p>
+							<h5 class="card-title">1962 Ferrari 250 GTO</h5>
+							<p class="card-text">Voiture de collection exceptionnelle</p>
 							<a href="car.html?id=1" class="btn btn-primary">See more</a>
 						</div>
 					</article>
@@ -130,12 +139,7 @@
 		</main>
 		<footer class="text-muted py-5">
 			<div class="container">
-				<p class="mb-1">
-					Images from
-					<a href="https://www.carandclassic.com/" target="_blank"
-						>carandclassic.com</a
-					>
-				</p>
+				
 			</div>
 		</footer>
 
